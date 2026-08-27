@@ -16,7 +16,7 @@ plt.show()
 def Salutations():
     name = entrada.get().strip()
     if not name:
-        name = "no pusiste nada, q onda"
+        name = "Oswaldo Castañeda"
     lbl.config(text=f"Que rollo, {name}")
 
 root = tk.Tk()
